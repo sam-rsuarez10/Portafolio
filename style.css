@@ -1,0 +1,31 @@
+.presentacion {
+    display: flex;
+    width: 1136px;
+    height: 368px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.presentacion__imagen {
+    /* hacer imagen circular */
+    border-radius: 50%;
+}
+
+.presentacion__info {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.presentacion__info__redes__list{
+    display: flex;
+    list-style: none;
+}
+.presentacion__info__redes__items{
+    margin-left: 2.5rem;
+}
+
+.presentacion__info__redes__items:first-child {
+    margin-left: 0;
+}
+
