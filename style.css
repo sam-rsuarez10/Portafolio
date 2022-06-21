@@ -1,14 +1,20 @@
+.acerca-de-mi {
+    background: #f5f5f5;
+}
+
 .presentacion {
     display: flex;
     width: 1136px;
-    height: 368px;
+    height: 400px;
     justify-content: space-between;
     margin: 0 auto;
+    color: #464646;
 }
 
 .presentacion__imagen {
     /* hacer imagen circular */
     border-radius: 50%;
+    height: 368px;
 }
 
 .presentacion__info {
@@ -29,3 +35,20 @@
     margin-left: 0;
 }
 
+.presentacion__info__principal {
+    font-size: 2.75rem;
+}
+
+.presentacion__info__secundaria {
+    font-size: 1.5rem;
+}
+
+.presentacion__info__redes__items a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.presentacion__info__redes__items a:hover {
+    font-size: 1.25rem;
+    transition: 500ms;
+}
