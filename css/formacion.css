@@ -1,0 +1,29 @@
+.formacion {
+    background: #eaf2fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formacion__list {
+    list-style: none;
+    display: flex;
+}
+
+.formacion__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 368px;
+    height: 286px;
+    background: #ffffff;
+}
+
+.formacion__items {
+    margin-left: 1.75rem;
+}
+
+.formacion__list:first-child {
+    margin-left: 0;
+}
