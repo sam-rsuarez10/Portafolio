@@ -1,0 +1,46 @@
+.skills-hobbies {
+    text-align: center;
+    color: #464646;
+}
+
+.skills-hobbies__list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.skills-hobbies__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 176px;
+    height: 174px;
+    background: #ffffff;
+}
+
+.skills-hobbies__icon-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+    margin-left: 0.75rem;
+}
+
+.skills-hobbies__items {
+    margin-left: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.skills-hobbies__titulo {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.skills-hobbies__titulo__item {
+    margin: 0;
+}
+
+.bx {
+    color: #2A7AE4;
+}
