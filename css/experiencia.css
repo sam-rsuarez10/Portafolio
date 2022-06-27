@@ -1,0 +1,20 @@
+.experiencia {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experiencia__titulo {
+    margin: 3rem 0;
+}
+.experiencia__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencia__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
