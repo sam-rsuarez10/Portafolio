@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}  
 .experiencia__titulo {
     margin: 3rem 0;
 }
@@ -13,8 +13,25 @@
     flex-direction: column;
 }
 
+.experiencia__item {
+    margin: 3rem 0;
+}
+
 .experiencia__container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.experiencia__item:nth-child(2n) .experiencia__info {
+    order: -1;
+}
+
+.experiencia__info {
+    margin: 0 2rem;
+}
+
+.experiencia__img {
+    width: 760px;
+    height: 406px;
 }
