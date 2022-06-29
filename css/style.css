@@ -1,7 +1,26 @@
 body {
     font-family: 'Raleway';
+    color: #464646;
 }
 
 .contenido-principal {
     background: #f5f5f5;
+}
+
+.estilo-boton-1, .estilo-boton-2 {
+    width: 116px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.estilo-boton-1 {
+    background-color: #f5f5f5;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+}
+
+.estilo-boton-2 {
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: none;
 }

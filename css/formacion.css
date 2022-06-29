@@ -28,3 +28,11 @@
 .formacion__list:first-child {
     margin-left: 0;
 }
+
+.formacion__institucion {
+    font-weight: 500;
+}
+
+.formacion__grado {
+    font-weight: bold;
+}

@@ -34,4 +34,18 @@
 .experiencia__img {
     width: 760px;
     height: 406px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.experiencia__nombre-proyecto {
+    font-weight: bold;
+}
+
+.experiencia__info__botones {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.boton-demo {
+    margin-left: 1.5rem;
 }
