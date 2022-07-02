@@ -27,4 +27,32 @@
 
 .contacto__campo{
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-campo {
+    border: none;
+    outline: none;
+}
+
+.input-campo:not(#campo-mensaje){
+    height: 2rem;
+}
+
+.label-campo {
+    font-weight: lighter;
+    font-size: .75rem;
+    padding-top: .75rem;
+    padding-left: .75rem;
+}
+
+.input-campo::placeholder {
+    padding-top: .75rem;
+    padding-left: .75rem;
+    font-size: .75rem;
+}
+
+.input-campo:focus{
+    border-bottom: 2px solid #0073e6;
 }
