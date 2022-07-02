@@ -15,7 +15,7 @@ body {
 
 .estilo-boton-1:hover, .estilo-boton-2:hover {
     transition: 400ms;
-    width: 126px;
+    width: 146px;
     height: 61px;
     font-size: 1.25rem;
 }

@@ -1,0 +1,30 @@
+.contacto {
+    background: #eaf2fd;
+}
+
+.contacto__container {
+    display: flex;
+    padding: 6rem 3.5rem 3rem 3.5rem;
+    justify-content: center;
+}
+
+.contacto__info {
+    margin-left: 1.5rem;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+}
+
+.contacto__titulo{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.contacto__campo{
+    background-color: #ffffff;
+}

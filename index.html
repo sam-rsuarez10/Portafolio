@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./css/skills-hobbies.css">
         <link rel="stylesheet" href="./css/formacion.css">
         <link rel="stylesheet" href="./css/experiencia.css">
+        <link rel="stylesheet" href="./css/contacto.css">
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body class="portafolio">
@@ -198,7 +199,32 @@
                     </li>
                 </ul>
             </section>
-            <section class="formulario-contacto"></section>
+            <section class="contacto">
+                <div class="contacto__container">
+                    <img src="./images/image_contacto.png" alt="Imagen de contacto" class="contacto__imagen">
+                    <div class="contacto__info">
+                        <h2 class="contacto__titulo">Contacto</h2>
+                        <p class="contacto__descripcion">¿Quieres contactarme?<br>
+                            Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                        <form action="" class="contacto__formulario">
+                            <div class="contacto__campo">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" class="input-campo">
+                            </div>
+
+                            <div class="contacto__campo">
+                                <label for="input-email">E-mail</label>
+                                <input type="email" id="input-email" class="input-campo">
+                            </div>
+
+                            <input type="text" id="asunto" placeholder="Asunto" class="input-campo">
+
+                            <textarea id="campo-mensaje" cols="30" rows="10" placeholder="Mensaje" class="input-campo"></textarea>
+                            <input type="submit" value="Enviar mensaje" class="estilo-boton-2">
+                        </form>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <p>Footer</p>
