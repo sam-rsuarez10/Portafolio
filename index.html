@@ -206,21 +206,21 @@
                         <h2 class="contacto__titulo">Contacto</h2>
                         <p class="contacto__descripcion">¿Quieres contactarme?<br>
                             Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                        <form action="" class="contacto__formulario">
+                        <form id="formulario-contacto" class="contacto__formulario">
                             <div class="contacto__campo">
                                 <label for="nombre" class="label-campo">Nombre</label>
-                                <input type="text" id="nombre" class="input-campo" required autocomplete="off">
+                                <input type="text" id="nombre" name="nombre" class="input-campo" required autocomplete="off">
                             </div>
 
                             <div class="contacto__campo">
                                 <label for="input-email" class="label-campo">E-mail</label>
-                                <input type="email" id="input-email" class="input-campo" required autocomplete="off">
+                                <input type="email" id="input-email" name="email" class="input-campo" required autocomplete="off">
                             </div>
 
-                            <input type="text" id="asunto" placeholder="Asunto" class="input-campo" required autocomplete="off">
+                            <input type="text" id="asunto" name="asunto" placeholder="Asunto" class="input-campo" required autocomplete="off">
 
-                            <textarea id="campo-mensaje" cols="30" rows="10" placeholder="Mensaje" class="input-campo" required autocomplete="off"></textarea>
-                            <input type="submit" value="Enviar mensaje" class="estilo-boton-2">
+                            <textarea id="campo-mensaje" name="mensaje" cols="30" rows="10" placeholder="Mensaje" class="input-campo" required autocomplete="off"></textarea>
+                            <input type="submit" value="Enviar mensaje" class="estilo-boton-2" id="boton-enviar">
                         </form>
                     </div>
                 </div>
