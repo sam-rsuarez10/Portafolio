@@ -45,6 +45,6 @@
     margin: 0;
 }
 
-.bx {
+.bx:not(#header-icon){
     color: #2A7AE4;
 }
