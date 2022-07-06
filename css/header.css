@@ -20,3 +20,17 @@ header {
 .menu__nav__item {
     padding-left: 1.25rem;
 }
+
+.menu__nav__item a{
+    text-decoration: none;
+    color: #464646;
+}
+
+.menu__nav__item a:hover {
+    transition: 500ms;
+    font-size: 1.25rem;
+}
+
+#correo {
+    font-weight: bold;
+}
